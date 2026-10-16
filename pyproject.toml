@@ -1,0 +1,11 @@
+[project]
+name = "ctm-kz"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "fastapi[standard]>=0.141.1",
+    "greenlet>=3.5.6",
+    "psycopg[standard]>=3.3.6",
+    "sqlalchemy>=2.1.1",
+]
